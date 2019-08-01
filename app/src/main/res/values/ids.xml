@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="et_number_Sub1" type="id">etNumSub</item>
+    <item name="et_number_sub2" type="id">etNumSub2</item>
+    <item name="et_number_multi1" type="id">etNumMulti1</item>
+    <item name="et_number_multi2" type="id">etNumMulti2</item>
+    <item name="et_number_div1" type="id">etNumdiv1</item>
+    <item name="et_number_div2" type="id">etNumDiv2</item>
+</resources>

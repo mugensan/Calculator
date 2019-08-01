@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:ignore="ExtraText"
+
+    android:background="@color/fbBlue"
+
+    >
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calculator2"
+        android:text="@string/calculator2"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        />
+
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text_result_my_calc"
+        android:layout_marginStart="8dp"
+        />
+    <GridLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        >
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/num1"
+            android:text="1"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            android:layout_rowWeight="1"
+            >
+
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/num2"
+            android:text="2"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            >
+
+        </Button>
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/num3"
+            android:text="3"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            >
+
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/plus"
+            android:text="+"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            >
+
+        </Button>
+
+
+    </GridLayout>
+
+    <GridLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        >
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/num4"
+            android:text="4"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            android:layout_rowWeight="1"
+            >
+
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/num5"
+            android:text="5"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            >
+
+        </Button>
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/num6"
+            android:text="6"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            >
+
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/minus"
+            android:text="-"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            >
+
+        </Button>
+
+
+    </GridLayout>
+    <GridLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        >
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/num7"
+            android:text="7"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            android:layout_rowWeight="1"
+            >
+
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/num8"
+            android:text="8"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            >
+
+        </Button>
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/num9"
+            android:text="9"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            >
+
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/multip"
+            android:text="*"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            >
+
+        </Button>
+
+
+    </GridLayout>
+    <GridLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        >
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/comma"
+            android:text=","
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            android:layout_rowWeight="1"
+            >
+
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/num0"
+            android:text="0"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            >
+
+        </Button>
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clear"
+            android:text="CE"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            >
+
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_div"
+            android:text="/"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            >
+
+        </Button>
+
+
+    </GridLayout>
+
+    <GridLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        >
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mod"
+            android:text="%"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            android:layout_rowWeight="1"
+            >
+
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/squareRoot"
+            android:text="√¯¯"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            >
+
+        </Button>
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/power"
+            android:text="^2"
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            >
+
+        </Button>
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/equal"
+            android:text="="
+            android:layout_marginTop="10dp"
+            android:layout_margin="8dp"
+            >
+
+        </Button>
+
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_number_one"
+            android:hint="Enter a number"
+            android:inputType="number"
+            android:layout_weight="1"
+
+
+            />
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_number_two"
+            android:hint="Enter a number"
+            android:layout_marginStart="@dimen/home_margin_top"
+            android:inputType="number"
+            android:layout_weight="1"
+
+            />
+
+
+
+    </GridLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
